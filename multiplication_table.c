@@ -1,3 +1,4 @@
+//Nichole Lin
 #include <stdio.h>
 void print_bits(int n, int bits){
   for(int i = bits-1; i>=0; i--){
