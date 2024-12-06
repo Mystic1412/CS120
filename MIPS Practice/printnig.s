@@ -4,5 +4,5 @@ x: .asciiz "Hello"
 
 main:
 la $a0, x
-li $v0, 11
+li $v0, 4
 syscall
