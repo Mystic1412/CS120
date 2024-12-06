@@ -1,4 +1,4 @@
-.data
+4.data
 arr: 
     .byte 'E'
     .byte 'L'
