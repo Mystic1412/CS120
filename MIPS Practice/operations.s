@@ -28,5 +28,24 @@ add $a0, $t3, $t2
 li$v0, 1
 syscall
 
+
+li $v0, 4
+la $a0, newline
+syscall
+li $v0, 4
+la $a0, newline
+syscall
+
+li $s0, 10
+li $s1, 0x10
+li $s2, 0xabcd0123
+
+add $t1, $s0, $s1
+add $s3, $t1, $s2
+
+li $t0, 0x10010010
+sw $s3, 0($t0)
+
+
 li $v0, 10
 syscall
